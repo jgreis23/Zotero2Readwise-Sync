@@ -1,5 +1,4 @@
-'''
-name: Zotero to Readwise Automation
+```name: Zotero to Readwise Automation
 
 on:
   push:
@@ -30,4 +29,4 @@ jobs:
 
       - name: 🚀 Run Automation
         run: python run.py ${{ secrets.READWISE_TOKEN }} ${{ secrets.ZOTERO_KEY }} ${{ secrets.ZOTERO_ID }}
-'''
+        ```
